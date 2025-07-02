@@ -1,0 +1,95 @@
+#home {
+    background: #136091;
+    color: #fff;
+}
+
+h1 {
+    font-size: 85px;
+}
+
+.home-headlines {
+    text-align: center;
+    padding: 50px 150px;
+}
+
+.home-small {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h6 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.button-group {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.btn-outline:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* space between cards */
+    flex-wrap: wrap; /* wraps on small screens */
+    padding: 20px;
+}
+
+.card {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#about {
+    background: #f4f4f4;
+}
+#services {
+    background: #e2e2e2;
+}
+#contact {
+    background: #d1d1d1;
+}

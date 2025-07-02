@@ -237,14 +237,16 @@ q > h6 {
     display: flex;
     justify-content: flex-start; /* align to the left */
     align-items: center;
-    padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
     height: 80px;
 }
 
 .site-header img {
-    height: 50px; /* or try 30px, 50px based on your design */
-    width: auto; /* maintain aspect ratio */
+    height: 90px;
+    width: auto; 
+}
+
+.header a img {
+    background: none;
 }
 
 nav {
@@ -330,7 +332,7 @@ footer {
 
 .foot-wrapper {
     width: 1200px;
-    background: #b00;
+    background: #136091;
 }
 
 .foot-wrapper svg {
@@ -365,10 +367,6 @@ footer {
 .copyright div {
     width: 50%;
     text-align: left;
-}
-
-.copyright div:last-child {
-    text-align: right;
 }
 
 #editor {
