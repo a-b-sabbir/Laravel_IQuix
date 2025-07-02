@@ -1,0 +1,246 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    section {
+        width: 100% !important;
+        overflow: visible;
+        display: block;
+        height: max-content;
+    }
+
+    #header-web {
+        display: none;
+    }
+
+    #header-mobile {
+        display: block;
+    }
+
+    .hamburger {
+        margin: 5px 10px 10px 110px;
+        position: static;
+        height: auto;
+        width: 10%;
+        font-size: 20px;
+    }
+
+    .hamburger ul {
+        width: 80%;
+        top: 55px;
+        left: calc(100% - 288px);
+        padding-left: 4px;
+        text-align: left;
+    }
+
+    header {
+        display: flex;
+        background-color: #c52226;
+    }
+
+    header img {
+        width: 200px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .copyright div {
+        width: calc(50% - 20px);
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+    }
+
+    .footer-links div,
+    .footer-links a {
+        width: 40%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .copyright div {
+        width: 100%;
+        text-align: left;
+    }
+
+    .copyright div:last-child {
+        text-align: left;
+    }
+
+    #ungayeb {
+        display: inline;
+    }
+    .web {
+        display: none !important; /* Hide web on mobile */
+    }
+
+    .mobile {
+        display: block !important; /* Show mobile on mobile */
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    section {
+        width: 100% !important;
+    }
+
+    #header-web {
+        display: block;
+    }
+
+    #header-mobile {
+        display: none;
+    }
+
+    header img {
+        width: 400px !important;
+    }
+
+    .hamburger {
+        margin: 10px 10px 10px 150px;
+        position: static;
+        height: auto;
+        width: 15%;
+        font-size: 30px;
+    }
+
+    .hamburger ul {
+        width: 50%;
+        top: 100px;
+        left: calc(50% - 10px);
+    }
+
+    header {
+        display: flex;
+    }
+
+    header img {
+        width: 480px;
+    }
+
+    .copyright,
+    .foot-wrapper {
+        padding: 10px;
+    }
+
+    .foot-wrapper {
+        width: calc(100% - 20px);
+        background: #b00;
+    }
+
+    .copyright div {
+        width: 50%;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+    }
+
+    .footer-links div,
+    .footer-links a {
+        width: 40%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .web {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .hamburger {
+        margin: 10px 10px 10px 100px;
+    }
+
+    #header-mobile {
+        display: none;
+    }
+
+    footer div {
+        padding: none;
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    section {
+        width: 768px !important;
+    }
+
+    #header-mobile {
+        display: none;
+    }
+
+    .hide-links {
+        display: none;
+    }
+
+    nav {
+        width: 768px;
+        padding: 0 calc((100% - 768px) / 2) !important;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .hamburger {
+        right: calc((100% - 768px) / 2);
+    }
+
+    .copyright,
+    .foot-wrapper {
+        padding: 10px calc((100% - 768px) / 2);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    section {
+        width: 992px !important;
+    }
+
+    #header-mobile {
+        display: none;
+    }
+
+    nav {
+        width: 992px;
+        padding: 0 calc((100% - 992px) / 2);
+    }
+
+    .hamburger {
+        right: calc((100% - 992px) / 2);
+    }
+
+    .hide-links {
+        display: none;
+    }
+
+    .foot-wrapper {
+        width: 992px;
+        background: #b00;
+    }
+
+    .copyright,
+    .foot-wrapper {
+        padding: 10px calc((100% - 992px) / 2);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .hide-links {
+        display: none;
+    }
+
+    #header-web {
+        display: block;
+    }
+
+    #header-mobile {
+        display: none;
+    }
+}
