@@ -9,13 +9,12 @@
         <h6 class="home-small">SOFTWARE SOLUTION</h6>
         <h1>EMPOWERING YOUR BUSINESS THROUGH TECHNOLOGY</h1>
 
-
         <div class="button-group">
             <a href="" class="btn btn-primary">Get Started</a>
             <a href="#contact" class="btn btn-outline">Contact Us</a>
         </div>
     </div>
-    
+
     <div class="card-container">
         <div class="card">
             <h2>Card 1</h2>
@@ -26,7 +25,6 @@
             <p>This is the second card with different content.</p>
         </div>
     </div>
-
 
 </section>
 
