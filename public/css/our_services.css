@@ -1,0 +1,104 @@
+/* Section Styling */
+.services-section {
+  padding: 60px 20px;
+  background-color: #f6f6f6;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.services-section > .subtitle {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.services-section > .title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+/* Grid Styling */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Card Styling */
+.service-card {
+  background-color: #1e0635;
+  color: #fff;
+  border-radius: 8px;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.service-card h3 {
+  margin-top: 0;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+}
+
+.service-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.service-card ul li {
+  margin-bottom: 5px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.service-card ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #fff000;
+}
+
+/* Make sure image doesn’t overflow or break layout */
+.service-card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+/* Button at bottom */
+.service-card button {
+  background-color: #c8ff00;
+  color: #000;
+  padding: 10px 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.service-card button:hover {
+  background-color: #b2e600;
+}
+

@@ -1,0 +1,28 @@
+/* Responsive Grid */
+@media (min-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+/* Responsive */
+    @media (max-width: 768px) {
+      .achievements_container {
+        flex-direction: column-reverse;
+      }
+
+      .achievements_grid {
+        grid-template-columns: 1fr;
+      }
+
+      .achievements_heading {
+        font-size: 26px;
+      }
+    }
