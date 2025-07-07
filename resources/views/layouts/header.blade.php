@@ -1,9 +1,9 @@
 <header class="site-header">
     <a id="header-web" href="{{ url('/') }}">
-        <img src="{{ asset('images/IQuix_Logo.png') }}" alt="Logo">
+        <img src="{{ asset('images/logo.png') }}" alt="Logo">
     </a>
     <a id="header-mobile" href="{{ url('/') }}">
-        <img src="{{ asset('images/IQuix_Logo.png') }}" alt="Logo">
+        <img src="{{ asset('images/logo.png') }}" alt="Logo">
     </a>
 
     <nav>

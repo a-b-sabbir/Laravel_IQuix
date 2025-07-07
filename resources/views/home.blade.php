@@ -31,6 +31,9 @@
 @include('partials.about')
 @include('partials.services')
 @include('partials.contact')
+@include('partials.our_team')
+@include('partials.testimonials')
+
 
 
 @endsection

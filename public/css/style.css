@@ -11,6 +11,13 @@ h3 {
     font-size: 25px;
 }
 
+h4 {
+    font-size: 24px;
+    padding: 15px 0px;
+    color: #FFF;
+    text-align: start;
+}
+
 p {
     font-size: 16px;
     color: #58505c;
@@ -55,9 +62,14 @@ h6 {
 }
 
 .about-button {
-    justify-content: right;
     margin: 0px 20px 0px 0px;
     display: flex;
+}
+
+.testimonials-button {
+    margin: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
 }
 
 .btn {
@@ -80,14 +92,14 @@ h6 {
 }
 
 .btn-yellow {
-    background-color: #D7FF64;
+    background-color: #d7ff64;
     color: #261230;
     border: none;
 }
 
 .btn-yellow:hover {
     background-color: #261230;
-    color: #D7FF64;
+    color: #d7ff64;
 }
 
 .btn-outline {
@@ -109,6 +121,11 @@ h6 {
     padding: 20px;
 }
 
+.card-container img {
+    width: 260px;
+    height: 260px;
+}
+
 .card {
     background-color: transparent;
     border-radius: 8px;
@@ -125,13 +142,48 @@ h6 {
     transform: translateY(-5px);
 }
 
+.our-team-card {
+    background-color: #261230;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 420px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.testimonials-card {
+    background-color: #261230;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.card-name {
+    font-size: 18px;
+    color: #e2e2e2;
+}
+
+.card-designation {
+    font-size: 12px;
+    color: #d7ff64;
+    margin-top: 5px;
+}
+
 #about {
     background: #f4f4f4;
 }
 
 .row {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .about-left {
@@ -142,6 +194,7 @@ h6 {
     width: 20%;
     align-items: flex-end;
     margin: 15px 0px;
+    justify-content: right;
 }
 
 #services {
@@ -152,4 +205,60 @@ h6 {
 #contact {
     background: #261230;
     padding: 20px 0px;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 5px;    
+    justify-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+#testimonials {
+    background: #eee;
+    padding: 20px 0px;
+}
+
+.review-height {
+    height: 20%;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Custom colors for each platform */
+.facebook {
+    background-color: #3b5998;
+}
+.twitter {
+    background-color: #1da1f2;
+}
+.instagram {
+    background-color: #e1306c;
+}
+.linkedin {
+    background-color: #0077b5;
+}
+.youtube {
+    background-color: #ff0000;
 }
