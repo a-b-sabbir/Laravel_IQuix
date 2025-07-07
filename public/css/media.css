@@ -26,3 +26,11 @@
         font-size: 26px;
       }
     }
+
+    /* Support Responsive */
+    @media (max-width: 600px) {
+      .support-form-row {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }

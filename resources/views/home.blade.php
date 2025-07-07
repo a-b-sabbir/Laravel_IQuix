@@ -33,6 +33,7 @@
 @include('partials.achievements')
 @include('partials.services')
 @include('partials.contact')
+@include('partials.support_section')
 
 
 @endsection
