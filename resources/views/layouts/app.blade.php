@@ -23,10 +23,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/our_services.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/achievements.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/support_section.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/media.css') }}">
+    @include('layouts.css-link')
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
