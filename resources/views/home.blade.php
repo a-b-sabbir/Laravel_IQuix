@@ -31,6 +31,7 @@
 @include('partials.about')
 @include('partials.our_services')
 @include('partials.achievements')
+@include('partials.transform_section')
 @include('partials.services')
 @include('partials.contact')
 @include('partials.support_section')
