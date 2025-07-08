@@ -1,0 +1,146 @@
+.support-section {
+  background-color: #1e0635;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alignment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.support-get-in-touch {
+  color: #c1ff59;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  list-style-type: square;
+}
+
+.support-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.support-subtitle {
+  font-size: 14px;
+  color: #c5c5c5;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.support-box-container {
+  max-width: 800px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.support-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  width: 340px;
+  gap: 10px;
+  height: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-top: 6px solid #c1ff59;
+}
+.icon {
+    height: 18px;
+    background-color: #c1ff59;
+    padding: 5px;
+}
+.support-box h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.support-box p {
+  font-size: 13px;
+  color: #555;
+  margin: 0;
+}
+
+/* 🔥 FIXED WIDTH + PADDING ISSUES */
+.form-container {
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+  margin: 0px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.support-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.support-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.support-form input,
+.support-form select,
+.support-form textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.support-form input:focus,
+.support-form select:focus,
+.support-form textarea:focus {
+  border-color: #5b9bd5;
+  outline: none;
+}
+
+.support-form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.support-form-row > div {
+  flex: 1;
+  min-width: 200px;
+}
+.support-form-row > div > input{
+    width: 90%;
+}
+.support-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.support-form button {
+  padding: 14px 20px;
+  background-color: #84e00c;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.support-form button:hover {
+  background-color: #22f007;
+}

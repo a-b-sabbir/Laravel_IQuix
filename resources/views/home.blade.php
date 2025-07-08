@@ -29,11 +29,13 @@
 </section>
 
 @include('partials.about')
+@include('partials.our_services')
+@include('partials.achievements')
 @include('partials.services')
 @include('partials.contact')
 @include('partials.our_team')
 @include('partials.testimonials')
-
+@include('partials.support_section')
 
 
 @endsection

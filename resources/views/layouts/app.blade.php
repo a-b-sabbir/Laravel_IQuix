@@ -20,10 +20,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title', 'Bhorer Bani')</title>
     <link rel="icon" href="{{ asset('favicon.svg') }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ asset('css/animation.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/our_services.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/achievements.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/support_section.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/media.css') }}">
     <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
