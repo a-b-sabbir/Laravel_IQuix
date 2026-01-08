@@ -33,7 +33,7 @@
             <div><i class="fas fa-phone"></i> +8801000000000</div>
             <div><i class="fas fa-mobile-screen-button"></i> +8801000000000</div>
             <div><i class="fa fa-fax"></i> +8801000000000</div>
-            <div><i class="fa fa-envelope"></i> info@<span id="ungayeb"><br></span>bhorerbani.com.bd</div>
+            <div><i class="fa fa-envelope"></i> info@<span id="ungayeb"><br></span>iquix.com.bd</div>
         </div>
         <div class="footer-links">
             <a>Privacy Policy</a>
